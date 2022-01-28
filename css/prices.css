@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+body{
+    background-color: white;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+header{
+    background-color: LightSteelBlue;
+}
+.header-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+}
+.header-item img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.header-text{
+    color: white;
+    padding-right: 100px;
+    padding-left: -100px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: steelblue;
+    border-bottom: steelblue solid;
+}
+.h1{
+    color: #4b637a;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.prices{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.section-item-prices{
+    border: #a5afb8 solid 1px;
+    font-size: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    align-items: center;
+}
+.section-item-prices img{
+    margin-top: -125px;
+    max-width: 200px;
+    max-height: 200px;
+    align-self: center;
+}
+.main-p{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+.text-p{
+    font-size: 20px;
+}
+footer{
+    background-color: LightSteelBlue;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+}
+footer a{
+    text-decoration: none;
+}
+footer img{
+    max-width: 30px;
+    max-height: 30px;
+}
+.p-mail a{
+    text-decoration: none;
+    color: white;
+}
+.p-mail a:hover{
+    color: steelblue;
+    border-bottom: steelblue solid;
+}
